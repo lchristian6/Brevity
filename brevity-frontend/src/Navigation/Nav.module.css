@@ -1,0 +1,32 @@
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--color-bg);
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    position: fixed;
+}
+
+ul.nav li.left{
+    float: left;
+    font-weight: bold;
+}
+
+ul.nav li {
+    float: right;
+}
+
+ul.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover {
+    background-color: var(--color-secondary);
+}
